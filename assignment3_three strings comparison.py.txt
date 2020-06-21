@@ -1,0 +1,13 @@
+str1=str(input("enter first string:"))
+str2=str(input("enter second string:"))
+str3=str(input("enter third string:"))
+if(str1==str2==str3):
+    print("all strings are equal")
+elif(str1==str2 and (str1!=str3 or str2!=str3)):
+    print("first and second strings are equal")
+elif(str1==str3 and (str1!=str2 or str3!=str2)):
+    print("first and third strings are equal")
+elif(str2==str3 and (str2!=str1 or str3!=str1)):
+    print("second and third strings are equal")
+else:
+    print("all strings are not equal")

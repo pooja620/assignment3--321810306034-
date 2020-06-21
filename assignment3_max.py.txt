@@ -1,0 +1,9 @@
+a=int(input("enter the number\n"))
+b=int(input("enter the number\n"))
+c=int(input("enter the number\n"))
+if(a>b and a>c):
+    print("a is greater than b,c")
+elif (b>a and b>c):
+    print("b is greter than a,c")
+else:
+    print("c is greter than a,b")
